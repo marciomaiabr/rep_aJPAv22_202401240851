@@ -79,8 +79,8 @@ public class Exe01 {
 				et.begin();
 
 				Empresa empresa = new Empresa();
-				empresa.setRazaoSocial("Razão Social 001...");
-				empresa.setNomeFantasia("Nome Fantasia 001...");
+				empresa.setRazaoSocial("Razão Social 1...");
+				empresa.setNomeFantasia("Nome Fantasia 1...");
 
 				em.merge(empresa);
 
